@@ -46,20 +46,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="iQueOoTSaveEditForm.cs">
+    <Compile Include="OoTSaveEditForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="iQueOoTSaveEditForm.Designer.cs">
-      <DependentUpon>iQueOoTSaveEditForm.cs</DependentUpon>
+    <Compile Include="OoTSaveEditForm.Designer.cs">
+      <DependentUpon>OoTSaveEditForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="iQueOoTSaveFile.cs" />
-    <Compile Include="iQueOoTSaveHeader.cs" />
-    <Compile Include="iQueOoTSingleSave.cs" />
+    <Compile Include="OoTSaveFile.cs" />
+    <Compile Include="OoTSaveHeader.cs" />
+    <Compile Include="OoTSingleSave.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Util.cs" />
-    <EmbeddedResource Include="iQueOoTSaveEditForm.resx">
-      <DependentUpon>iQueOoTSaveEditForm.cs</DependentUpon>
+    <EmbeddedResource Include="OoTSaveEditForm.resx">
+      <DependentUpon>OoTSaveEditForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

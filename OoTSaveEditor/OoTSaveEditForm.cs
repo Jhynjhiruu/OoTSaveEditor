@@ -261,10 +261,5 @@ namespace HyoutaTools.Other.N64.OoTSaveEditor {
 		}
 		private void SoundComboBox_SelectedIndexChanged( object sender, EventArgs e ) {
 		}
-
-        private void OoTSaveEditForm_Load(object sender, EventArgs e)
-        {
-
-        }
-    }
+	}
 }
