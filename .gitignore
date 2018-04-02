@@ -1,4 +1,5 @@
 ﻿*.suo
+﻿*.lock
+﻿*.ide
 OoTSaveEditor/bin
 OoTSaveEditor/obj
-.vs/OoTSaveEditor/v15/Server/sqlite3/*
