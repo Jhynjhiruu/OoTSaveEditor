@@ -1,4 +1,4 @@
 ﻿*.suo
 OoTSaveEditor/bin
 OoTSaveEditor/obj
-/.vs/*
+.vs/OoTSaveEditor/v15/Server/sqlite3/*
