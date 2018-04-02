@@ -223,7 +223,7 @@ namespace HyoutaTools.Other.N64.OoTSaveEditor {
 		private void DisplayOpenFileDialog() {
 			OpenFileDialog dialog = new System.Windows.Forms.OpenFileDialog();
 			dialog.FileName = "00200f70.sta";
-			dialog.Filter = "iQue raw save (*.sta)|*.sta|OoT SRAM (*.sra)|*.sra|Any File|*.*";
+			dialog.Filter = "iQue Player raw save (*.sta)|*.sta|OoT SRAM (*.sra)|*.sra|Any File|*.*";
 			DialogResult result = dialog.ShowDialog();
 			if ( result == DialogResult.OK ) {
 				this.SuspendLayout();
