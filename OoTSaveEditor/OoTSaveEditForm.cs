@@ -222,8 +222,8 @@ namespace HyoutaTools.Other.N64.OoTSaveEditor {
 
 		private void DisplayOpenFileDialog() {
 			OpenFileDialog dialog = new System.Windows.Forms.OpenFileDialog();
-			dialog.FileName = "THE LEGEND OF ZELDA.sra";
-			dialog.Filter = "OoT SRAM (*.sra)|*.sra|Any File|*.*";
+			dialog.FileName = "00200f70.sta";
+			dialog.Filter = "iQue raw save (*.sta)|*.sta|OoT SRAM (*.sra)|*.sra|Any File|*.*";
 			DialogResult result = dialog.ShowDialog();
 			if ( result == DialogResult.OK ) {
 				this.SuspendLayout();
@@ -261,5 +261,10 @@ namespace HyoutaTools.Other.N64.OoTSaveEditor {
 		}
 		private void SoundComboBox_SelectedIndexChanged( object sender, EventArgs e ) {
 		}
-	}
+
+        private void OoTSaveEditForm_Load(object sender, EventArgs e)
+        {
+
+        }
+    }
 }
