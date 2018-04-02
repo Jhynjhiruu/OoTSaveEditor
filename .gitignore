@@ -1,5 +1,6 @@
 ﻿*.suo
 ﻿*.lock
 ﻿*.ide
+.vs
 OoTSaveEditor/bin
 OoTSaveEditor/obj
